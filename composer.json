@@ -1,0 +1,30 @@
+{
+  "name": "ccwp/checkout-champ-wordpress-plugin",
+  "description": "Checkout Champ WordPress Plugin",
+  "license": "GPL-3.0-or-later",
+  "type": "wordpress-plugin",
+  "version": "4.0.0",
+  "authors": [
+    {
+      "name": "checkoutchamp",
+      "email": "wecare@checkoutchamp.com",
+      "homepage": "https://checkoutchamp.com"
+    }
+  ],
+  "homepage": "https://checkoutchamp.com",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "autoload": {
+    "psr-4": {
+      "CheckoutChamp\\": "/",
+      "CheckoutChamp\\Includes\\": "includes/",
+      "CheckoutChamp\\Includes\\Admin\\": "includes/admin/",
+      "CheckoutChamp\\Includes\\Admin\\Partials\\": "includes/admin/partials/",
+      "CheckoutChamp\\Includes\\Admin\\Partials\\Contact": "includes/admin/partials/Contact/",
+      "CheckoutChamp\\Includes\\Functions\\": "includes/functions/",
+      "CheckoutChamp\\Includes\\Logger\\": "includes/logger/"
+    }
+  },
+  "config": {},
+  "extra": {}
+}

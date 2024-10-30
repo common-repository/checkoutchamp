@@ -1,0 +1,74 @@
+.checkout-champ-footer {
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  width: -webkit-fill-available;
+}
+.checkout-champ-footer-social-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+.CCR_img {
+  width: -webkit-fill-available;
+  max-width: 454px;
+  object-fit: contain;
+  aspect-ratio: 854/165;
+}
+.checkout-champ-footer-social-logo > * {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1.5rem * var(--tw-space-x-reverse));
+  margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
+  --tw-text-opacity: 1;
+  color: rgb(242 100 25 / var(--tw-text-opacity));
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.text-brand-orange {
+  --tw-text-opacity: 1;
+  color: rgb(242 100 25 / var(--tw-text-opacity));
+}
+.w-6 {
+  width: 1.5rem;
+}
+.h-6 {
+  height: 1.5rem;
+}
+.checkout-champ-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: --fill-available;
+  margin-top: 50px;
+}
+
+.checkout-champ-contact-infos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  width: 80%;
+  background: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 0px 1px;
+  border-radius: 10px;
+  margin: 10px;
+  border: 0;
+  --tw-gradient-from: rgba(249, 179, 148, 1);
+  background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+}
